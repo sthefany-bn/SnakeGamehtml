@@ -17,7 +17,7 @@ const updateFoodPosition = () => {
 
 const handleGameOver = () => {
     clearInterval(setIntervalId);
-    alert("Game Over! Press OK to replay...");
+    alert("Game Over!\nPrecione OK para jogar de novo...");
     location.reload();
 }
 
@@ -71,5 +71,5 @@ const initGame = () => {
 }
 
 updateFoodPosition();
-setIntervalId = setInterval(initGame, 130);
+setIntervalId = setInterval(initGame, 135);
 document.addEventListener("keyup", changeDirection);
