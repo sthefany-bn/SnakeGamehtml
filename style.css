@@ -10,7 +10,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 88vh;
   background: #91adc2;
 }
 .wrapper {
