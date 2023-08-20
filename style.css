@@ -10,7 +10,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 88vh;
+  min-height: 100vh;
   background: #91adc2;
 }
 .wrapper {
@@ -79,8 +79,11 @@ main {
   }
 }
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background: #293447;
-  height: 5vh;
+  padding: 10px;
   font-size: 8px;
   display: flex;
   align-items: center;
